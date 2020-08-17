@@ -1,0 +1,35 @@
+.nav_style{
+    background-color: black;
+    >span{
+        padding-left: 4%;
+        >a{
+            font-size: 120%;
+            color: white;
+        }
+    }
+    >div{
+        padding-right: 4%;
+        >div{
+            >a{
+                text-align: center;
+                padding: 10px;
+                padding-bottom: 0px;
+                margin-left: 10px;
+                margin-right: 10px;
+                text-decoration: none;
+                color: white;
+                letter-spacing: 1px;
+                opacity: 0.6;
+            }
+            >a:hover{
+                transition-duration: 0.5s;
+                opacity: 1;
+                border-bottom: 1px solid white;
+            }
+        }
+    }
+}
+
+.main_page_nav{
+    background-color: rgba(0, 0, 0, 0);
+}

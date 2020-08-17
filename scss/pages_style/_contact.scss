@@ -1,0 +1,38 @@
+.contact {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  // background-color: rgba(0, 0, 0, 0.349);
+  > div:nth-child(1) {
+    background-image: url("/images/slide2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: list-item;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 50vw;
+    color: white;
+    padding-left: 160px;
+    padding-top: 120px;
+
+    > div {
+      border-left: 4px solid red;
+      > h1 {
+        border-left: thick;
+
+        color: white;
+        font-size: 100px;
+      }
+      > p {
+        font-size: 35px;
+      }
+    }
+  }
+  > div:nth-child(2) {
+    height: 70vh;
+    width: 50vw;
+  }
+}

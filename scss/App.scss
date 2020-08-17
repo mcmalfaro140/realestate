@@ -1,0 +1,21 @@
+//Core Files
+@import "variables";
+@import "animations";
+
+//pages
+@import "./pages_style/index";
+@import "./pages_style/contact";
+@import "./pages_style/listings";
+@import "./pages_style/about";
+
+//components
+
+@import "./components_style/formcontact";
+@import "./components_style/footer";
+@import "./components_style/searchbar";
+@import "./components_style/card";
+@import "./components_style/servicecards";
+@import "./components_style/navbar";
+
+//Sass
+@import "~bootstrap/scss/bootstrap";

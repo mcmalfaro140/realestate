@@ -1,0 +1,27 @@
+.listings{
+    margin: 6%;
+    >div:nth-child(1){ //header
+       font-size: 300%;
+       >span{
+            border-left: 4px solid red;
+            padding-right: 1%;
+       }
+    }
+    >div:nth-child(3){// mini-header
+        font-size: 150%;
+       >span{
+            border-left: 2px solid red;
+            padding-right: 1%;
+       }
+    }
+    >div:nth-child(4){// card container
+        margin-top: 2%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    >div:nth-child(5){// pagging container
+        margin-left: 39%;
+    }
+    
+}
