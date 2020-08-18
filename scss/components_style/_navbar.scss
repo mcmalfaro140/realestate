@@ -1,5 +1,4 @@
 .nav_style{
-    background-color: black;
     >span{
         padding-left: 4%;
         >a{
@@ -31,5 +30,11 @@
 }
 
 .main_page_nav{
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+@media(max-width: $tablet){
+    .nav_style{
+        background-color: black !important;
+    }
 }

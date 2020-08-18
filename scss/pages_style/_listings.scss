@@ -25,3 +25,11 @@
     }
     
 }
+
+@media(max-width: $tablet){
+    .listings{
+        >div:nth-child(5){// pagging container
+            margin-left: 0%;
+        }
+    }
+}

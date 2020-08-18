@@ -52,3 +52,30 @@
         }
     }
 }
+
+@media(max-width: $tablet){
+    .porp_card{
+        width: 300px;
+        >div:nth-child(1){ //img div
+            width: 300px;
+            height: 200px;
+            >img{
+                width: 300px;
+                height: 200px;
+            }
+        }
+    }
+}
+
+@media(max-width: $phone){
+    .porp_card{
+        width: 100%;
+        >div:nth-child(1){ //img div
+            width: 100%;
+            height: 200px;
+            >img{
+                width: 100%;
+            }
+        }
+    }
+}

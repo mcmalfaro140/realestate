@@ -60,3 +60,9 @@
         padding: 3%
     }
 }
+
+@media(max-width: $phone){
+    .footer{
+        display: none;
+    }
+}

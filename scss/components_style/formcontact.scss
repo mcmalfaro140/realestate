@@ -1,5 +1,4 @@
 .formcontact{
-        
     padding-top: 5pc;
     padding-right: 10pc;
     padding-left: 10pc;
@@ -43,3 +42,20 @@
         
     }
 }
+
+@media(max-width: $ipad_pro){
+    .formcontact{
+        padding-top: 30%;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+}
+
+@media(max-width: $ipad_pro){
+    .formcontact{
+        padding-top: 30%;
+        padding-right: 0%;
+        padding-left: 0%;
+    }
+  }
+

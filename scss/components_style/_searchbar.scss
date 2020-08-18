@@ -57,3 +57,21 @@
     }
   }
 }
+
+@media(max-width: $phone){
+  .search_bar {
+    > div:nth-child(1) {
+      > input {
+        width: 75%;
+      }
+      > span {
+        > button {
+          width: 25%;
+        }
+      }
+    }
+    > div:nth-child(2) {
+      display: none;
+    }
+  }
+}

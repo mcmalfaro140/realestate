@@ -58,3 +58,57 @@
         }
     }
 }
+
+@media(max-width: $ipad_pro){
+    .landing{
+        height: 103vh;
+        margin-top: -8%;
+        >div{
+            padding-top: 50%;
+        }
+    }
+
+}
+
+@media(max-width: $tablet){
+    .landing{
+        margin-top: -11%;
+    }
+}
+
+@media(max-width: $phone){
+    .landing{
+        margin-top: -22%;
+        >div{
+            >div{
+                margin: auto;
+                color: white;
+                font-size: 250%;
+                font-weight: bolder;
+                padding-bottom: 1%;
+            }
+            >div:nth-child(2){
+                font-size: 120%;
+                margin-top: 10%;
+                >input{
+                    width: 90%;
+                }
+                >span{
+                    margin-left: -8%; 
+                    >svg{
+                        width: 5%;
+                    }
+                }
+            }
+            >div:nth-child(3){
+                margin-top: 10%;
+                >span{
+                    >svg{
+                        width: 8%;
+                    }
+                }
+            }
+        }
+    }
+
+}

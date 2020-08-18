@@ -36,3 +36,20 @@
     width: 50vw;
   }
 }
+
+@media(max-width: $ipad_pro){
+  .contact {
+    > div:nth-child(1) {
+      padding-left: 6%;
+      padding-top: 20%;
+    }
+  }
+}
+
+@media(max-width: $ipad_pro){
+  .contact {
+    > div:nth-child(1) {
+      display: none;
+    }
+  }
+}
